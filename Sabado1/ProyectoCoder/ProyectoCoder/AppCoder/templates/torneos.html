@@ -1,5 +1,21 @@
 {% extends "padre.html" %}
 
-{% block titulo%}
-Información partidos
+{% block titulo %}
+Información Torneos
 {% endblock%}
+
+
+
+{% block parrafo %}
+<p>Buscar Torneo:</p>
+
+<form action="" method="get">
+    
+    Ingrese nombre de Torneo: <input type="text" name="nombre">
+
+    <input type="submit" value="Buscar">
+
+</form>
+
+
+{% endblock %}
